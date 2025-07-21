@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ model.title }}</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        {% block content %}
+        <h1>{{ model.title }}</h1>
+        {% endblock %}
+        <footer class="mt-5">
+            <p class="text-muted text-center">© 2025 - DevOps Fans</p>
+        </footer>
+    </div>
+</body>
+</html>
